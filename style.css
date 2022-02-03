@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    padding: 8px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+input[type="button"]{
+    background-color: rgb(122, 120, 120);
+    width: 130px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
+
